@@ -1,0 +1,53 @@
+{
+	"Apprentices": {
+	  "Hyderabad": [
+		{
+		  "name": "kaustubh tonpe",
+		  "employee_id": "A123456",
+		  "email": "kaustubh.tonpe@jda.com",
+		  "contact": "8928989645"
+		},
+		{
+		  "name": "narendra modi",
+		  "employee_id": "A123454",
+		  "email": "narendra.modi@jda.com",
+		  "contact": "8928989646"
+		},
+		{
+		  "name": "mohammad uddin",
+		  "employee_id": "A123786",
+		  "email": "Mohammad.uddin@jda.com",
+		  "contact": "8928989786"
+		}
+	  ],
+	  "Bangalore": [
+		{
+		  "name": "sivani cheruku",
+		  "employee_id": "A123451",
+		  "email": "sivani.cheruku@jda.com",
+		  "contact": "+1 (555) 123-4567"
+		},
+		{
+		  "name": "radhika ramireddy",
+		  "employee_id": "A123450",
+		  "email": "radhika.ramireddy@jda.com",
+		  "contact": "+1 (555) 123-4567"
+		},
+		{
+		  "name": "simoni verma",
+		  "employee_id": "A123459",
+		  "email": "simoni.verma@jda.com",
+		  "contact": "+1 (555) 123-4567"
+		}
+	  ],
+	  "1Hyderabad": [
+		{
+		  "name": "kaustubh tonpe",
+		  "employee_id": "A123456",
+		  "email": "kaustubh.tonpe@jda.com",
+		  "contact": "8928989645"
+		}
+	]
+  }
+}
+  
