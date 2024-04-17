@@ -1,5 +1,5 @@
 import json
-import random
+# import random
 
 
 
@@ -22,22 +22,23 @@ print(shuffled_dict)'''
 
 
 #To print the names of people in Hyderabad only
-def display_data():
+def display_data_of_hyd():
     #hyd = data["Apprentices"]["Hyderabad"]
     for members in data["Apprentices"]["Hyderabad"]:
         print(members["name"])
 
-
+def display_genral_details(member):
+    print("Name:", member["name"])
+    print("Employee ID:", member["employee_id"])
+    print("Email:", member["email"])
+    print("Contact:", member["contact"])
+    print()
 def search_name_from_data(name):
     for location, members in data["Apprentices"].items():
         for member in members:
             if name == member["name"]:
                 print(f'{name} works at {location}')
-                print("Name:", member["name"])
-                print("Employee ID:", member["employee_id"])
-                print("Email:", member["email"])
-                print("Contact:", member["contact"])
-                print()
+                display_genral_details(member)
                 # else: print('Not fnd')
 
 
